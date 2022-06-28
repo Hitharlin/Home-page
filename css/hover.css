@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+
+	.header_logo_outer:hover .header_logo_text {
+		width: 100%;
+		opacity: 1;
+	}
+
+    .navigation_list_link:hover,
+    .header_logo_text:hover,
+    footer a:hover,
+    .work_section_client_item .sub_title:hover,
+    .work_section_client_link:hover h3,
+	.about_section_left_side a:hover,
+	.about_health_section_right_side a:hover,
+	.work_section h3 a:hover,
+	.location_section a:hover {
+		color: #00aeef;
+	}
+
+	.work_section_client_link:hover .item_symbol {
+		color: #000;
+	}
+
+	.work_section_client_link:hover .img-container img {
+		transform: scale(1.1);
+	}
+
+	.work_section_client_item:hover .item_border {
+		width: 100%;
+	}
+
+	.section_link:hover {
+		color: #fff;
+		background-color: #00aeef;
+	}
+
+    .social_link:hover svg * {
+        fill: #00aeef;
+    }
+
+}
